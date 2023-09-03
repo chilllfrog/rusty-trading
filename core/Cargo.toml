@@ -1,0 +1,18 @@
+[package]
+name = "trading-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+include.workspace = true
+license.workspace = true
+
+[dependencies]
+hyper.workspace = true
+async-trait.workspace = true
+tokio.worksapce = true
+thiserror.worksapce = true
+libmath = "0.2.1"
+tokenbucket = "0.1.3"
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["rt", "macros"] }

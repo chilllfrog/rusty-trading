@@ -1,0 +1,19 @@
+[package]
+name = "trading-exchanges"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+include.workspace = true
+license.workspace = true
+
+[dependencies]
+hyper.workspace = true
+async-trait.workspace = true
+tokio.worksapce = true
+hyper-tls.worksapce = true
+serde.worksapce = true
+serde_json.worksapce = true
+serde_derive.worksapce = true
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["rt", "macros"] }
