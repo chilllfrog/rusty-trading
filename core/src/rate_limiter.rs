@@ -51,7 +51,7 @@ impl RateLimiter for TokenBucket {
             self.last_time = current;
             return Ok(());
         } else {
-            return Err(LimiterError::INSUFFICIENTOKEN(self.tokens_left as u64));
+            return Err(LimiterError::InsufficientToken(self.tokens_left as u64));
         }
     }
 }
