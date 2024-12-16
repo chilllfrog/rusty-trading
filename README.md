@@ -1,3 +1,3 @@
 # rusty-trading
-rust interface for trading on all mainstream central exchanges
+rust interface for trading on all major central exchanges
 
