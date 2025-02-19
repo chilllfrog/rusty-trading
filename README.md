@@ -1,3 +1,3 @@
 # rusty-trading
-rust RPC APIs for trading on all major centralized exchanges
+rust version APIs for trading on all major centralized exchanges
 
