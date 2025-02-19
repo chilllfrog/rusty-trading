@@ -1,3 +1,3 @@
 # rusty-trading
-rust version APIs for trading on all major centralized exchanges
+rust version trading APIs on all major centralized exchanges
 
